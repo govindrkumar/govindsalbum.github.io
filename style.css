@@ -1,0 +1,60 @@
+@media (min-width:640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+
+
+h1{
+    text-align: center;
+    font-size: 25;
+}
+
+.nav-menu a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: brown;
+}
+
+/* Body text color */
+body {
+    color: #333333; /* Dark gray */
+}
+
+/* Heading color */
+h1, h2, h3, h4, h5, h6 {
+    color: #0047AB; /* Deep blue */
+}
+
+nav a {
+    margin-right: 20px; /* Adjust this value to increase or decrease space between links */
+}
+
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Header row styles */
+th {
+    background-color: #003366;
+    color: #ffffff;
+}
+
+/* Odd row styles */
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Even row styles */
+tr:nth-child(even) {
+    background-color: #cce6ff;
+}
